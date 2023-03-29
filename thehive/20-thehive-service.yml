@@ -3,7 +3,6 @@ kind: Service
 metadata:
   name: thehive
 spec:
-  type: ClusterIP
   selector:
     app: thehive
   ports:
